@@ -1,0 +1,183 @@
+@use './variables' as *;
+
+main{
+    height: 100vh;
+    background-color: $light-gary-one;
+    overflow: hidden;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: $main-bg-img2;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        height: 100%;
+        overflow: hidden;
+        .bg-image{
+            
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 50%;
+            height: 88%;
+            background-color: #387546;
+            border-radius: 50%;
+            position: relative;
+            right: -28.875rem;
+            top: -5rem;
+            img{
+                position: absolute;
+                left: -10rem;
+                top: 7rem;
+            }
+        }
+        .text{
+            width: 30%;
+            h1{
+                font-size: 2.875rem;
+                font-weight: 800;
+                word-spacing: 0.125rem;
+                margin-bottom: 2rem;
+            }
+            p{
+                font-size: 1.7rem;
+                margin-bottom: 2rem;
+            }
+            button{
+                width: 14rem;
+                height: 3.5rem;
+                border-radius: 0.7rem;
+                font-size: 1.7rem;
+                background-color: $orange;
+                border: none;
+                color: $white-one;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+            }
+        } 
+    }
+}
+
+@media(max-width:1600px){
+    main{
+        .container{
+            .bg-image{
+               
+                img{
+                    position: absolute;
+                    left: -20rem;
+                    top: 7rem;
+                }
+            }
+        }
+    }
+}
+@media(max-width:1200px){
+    main{
+        .container{
+            .bg-image{
+                right: -20.875rem;
+                img{
+                    position: absolute;
+                    left: -24rem;
+                    top: 7rem;
+                }
+            }
+        }
+    }
+}
+@media(max-width:900px){
+    main{
+        .container{
+            position: relative;
+            background-color: #387546;
+            border-radius: 50%;
+            width: 882px;
+            top: -151px;
+            left: 130px;
+            background-image: none;
+
+            .bg-image{
+                right: -15.875rem;
+                width: 65rem;
+                height: 88%;
+                img{
+                    position: absolute;
+                    left: 10rem;
+                    top: 7rem;
+                }
+            }
+            .text{
+                position: absolute;
+                z-index:999; 
+                
+            }
+        }
+    }
+}
+@media(max-width:575px){
+    main{
+        // margin-top: 10rem;
+        .container{
+            position: relative;
+            background-color: #387546;
+            border-radius: 50%;
+            width: 700px;
+            top: -157px;
+            left: -39px;
+            background-image: none;
+            .bg-image{
+                img{
+                    position: absolute;
+                    left: -3rem;
+                    top: 6rem;
+                }
+            }
+            .text{
+                position: absolute;
+                z-index: 999;
+                left: 103px;
+                bottom: 323px;
+            
+                h1{
+                    font-size: 2rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                }
+                button{
+                    font-size: 1.2rem;
+                    width: 10rem;
+                    height: 2.5rem;
+                }
+                
+            }
+        }
+    }
+}
+
+
+@media(max-width:380px){
+    main{
+        // margin-top: 10rem;
+        .container{
+            
+            .bg-image{
+                img{
+                    left: -6rem;
+                    
+                }
+            }
+            .text{
+                
+                left: 67px;
+                bottom: 156px;
+            
+                h1{
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+}
