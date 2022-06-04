@@ -18,7 +18,7 @@ footer{
         background-color: #387546;
         border-radius: 50%;
         position: absolute;
-        top: 14.375rem;
+        top: 7.375rem;
         display: flex;
         justify-content: center;
         .container{
@@ -29,27 +29,27 @@ footer{
                 background-color:$light-gary-one ;
                 padding: 2.1rem;
                 border-radius: 50%;
-                left: 2.1875rem;
+                left: -2.1875rem;
 
             }
             .links{
                 position: absolute;
-                top: 7.5625rem;
-                left: -4.25rem;
+                top: 6.5625rem;
+                left: -5.25rem;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
                 width: 150%;
-                font-size: 2rem;
                 a{
                     color: $white-one;
-                    font-size: 2rem;
+                    font-size: 1.8rem;
+                    margin-right: 30px;
                 }
             }
             .accounts{
                 position: absolute;
-                top: 13.1875rem;
-                left: -0.3125rem;
+                top: 10.1875rem;
+                left: -1.3125rem;
                 display: flex;
                 justify-content: space-between;
                 width: 100%;

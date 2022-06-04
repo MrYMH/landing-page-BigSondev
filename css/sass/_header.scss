@@ -3,11 +3,11 @@
 
 header{
     width: 100%;
-    height: 7.5rem;
+    height: 3.5rem;
     background-color: $white-one;
     position: relative;
     // z-index:89000;
-    top: 0.3125rem;
+    top: -2.3125rem;
     
     .container{
         display: flex;
@@ -48,7 +48,7 @@ header{
 @media(max-width:750px){
     header{
         width: 100%;
-        height: 5rem;
+        height: 4rem;
         .container{
             display: flex;
             justify-content: space-between;
@@ -56,8 +56,8 @@ header{
             flex-wrap: wrap;
             .logo{
                 position: relative;
-                top: -15.9rem;
-                left: -14px;
+                top: 1.4rem;
+                left: -16px;
             
                 img{
                     width: 100px;
@@ -85,8 +85,8 @@ header{
                 display: block;
                 text-align: center;
                 position: relative;
-                top: -260px;
-                right: -367px;
+                top: 16px;
+                left: 106px;
                 .cancel{
                     display: none;
                 }
@@ -97,37 +97,37 @@ header{
 }
 
 
-@media(max-width:385px){
-    header{
-        width: 100%;
-        height: 4rem;
-        .container{
+// @media(max-width:385px){
+//     header{
+//         width: 100%;
+//         height: 4rem;
+//         .container{
             
-            .logo{
-                top: -1.9rem;
-                left: -14px;
-                img{
-                    width: 100px;
-                }
-            }
-            .nav{
-                width: 18.3rem;
-                height: 45vh;
-                top: -26px;
-                left: 62px;
-                opacity: 0;
-            }
-            .list{
-                top: -35px;
-                right: -34px;
-                .cancel{
-                    display: none;
-                }
+//             .logo{
+//                 top: 1.1rem;
+//                 left: -14px;
+//                 img{
+//                     width: 100px;
+//                 }
+//             }
+//             .nav{
+//                 width: 18.3rem;
+//                 height: 45vh;
+//                 top: -26px;
+//                 left: 62px;
+//                 opacity: 0;
+//             }
+//             .list{
+//                 top: -35px;
+//                 right: -34px;
+//                 .cancel{
+//                     display: none;
+//                 }
                 
-            }
-        }
-    }
-}
+//             }
+//         }
+//     }
+// }
 @media(max-width:585px){
     header{
         width: 100%;
@@ -135,7 +135,7 @@ header{
         .container{
             
             .logo{
-                top: -1.9rem;
+                top: 1.1rem;
                 left: -14px;
                 img{
                     width: 100px;
@@ -149,8 +149,8 @@ header{
                 opacity: 0;
             }
             .list{
-                top: -35px;
-                right: -34px;
+                top: 10px;
+                left: 54px;
                 .cancel{
                     display: none;
                 }

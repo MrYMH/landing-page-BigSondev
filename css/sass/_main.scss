@@ -22,16 +22,21 @@ main{
             background-color: #387546;
             border-radius: 50%;
             position: relative;
-            right: -28.875rem;
-            top: -5rem;
-            img{
+            right: -18.875rem;
+            top: -4rem;
+            #image-1{
                 position: absolute;
-                left: -10rem;
-                top: 7rem;
+                left: -14rem;
+                top: -4rem;
+                z-index: 9999;
+                width: 500px;
             }
         }
         .text{
-            width: 30%;
+            width: 40%;
+            position: relative;
+            top: -3rem;
+            left: 5rem;
             h1{
                 font-size: 2.875rem;
                 font-weight: 800;
@@ -54,34 +59,31 @@ main{
                 justify-content: center;
                 align-items: center;
                 gap: 1rem;
+                &:hover{
+                    cursor: pointer;
+                }
             }
         } 
     }
 }
 
-@media(max-width:1600px){
-    main{
-        .container{
-            .bg-image{
-               
-                img{
-                    position: absolute;
-                    left: -20rem;
-                    top: 7rem;
-                }
-            }
-        }
-    }
-}
+
 @media(max-width:1200px){
     main{
         .container{
+            .text{
+                top: -4rem;
+                left: 7rem;
+                h1{
+                    font-size: 2rem;
+                }
+            }
             .bg-image{
-                right: -20.875rem;
-                img{
+                right: -14.875rem;
+                #image-1{
                     position: absolute;
-                    left: -24rem;
-                    top: 7rem;
+                    left: -13rem;
+                    top: -1rem;
                 }
             }
         }
@@ -91,7 +93,7 @@ main{
     main{
         .container{
             position: relative;
-            background-color: #387546;
+            // background-color: #387546;
             border-radius: 50%;
             width: 882px;
             top: -151px;
@@ -99,19 +101,22 @@ main{
             background-image: none;
 
             .bg-image{
-                right: -15.875rem;
-                width: 65rem;
-                height: 88%;
-                img{
+                    right: -31.875rem;
+                    width: 65rem;
+                    height: 88%;
+                    top: 12px;
+                    background-color: transparent;
+                #image-1{
                     position: absolute;
-                    left: 10rem;
-                    top: 7rem;
+                    left: -7rem;
+                    top: -3rem;
                 }
             }
             .text{
                 position: absolute;
                 z-index:999; 
-                
+                top: 13rem;
+                left: 5rem;
             }
         }
     }
@@ -124,14 +129,13 @@ main{
             background-color: #387546;
             border-radius: 50%;
             width: 700px;
-            top: -157px;
-            left: -39px;
+            top: -146px;
+            left: -96px;
             background-image: none;
             .bg-image{
-                img{
-                    position: absolute;
-                    left: -3rem;
-                    top: 6rem;
+                right: -24.875rem;
+                #image-1{
+                    left: -12rem;
                 }
             }
             .text{
@@ -139,9 +143,10 @@ main{
                 z-index: 999;
                 left: 103px;
                 bottom: 323px;
+                width: 30%;
             
                 h1{
-                    font-size: 2rem;
+                    font-size: 1.4rem;
                 }
                 p{
                     font-size: 1.2rem;
@@ -158,26 +163,3 @@ main{
 }
 
 
-@media(max-width:380px){
-    main{
-        // margin-top: 10rem;
-        .container{
-            
-            .bg-image{
-                img{
-                    left: -6rem;
-                    
-                }
-            }
-            .text{
-                
-                left: 67px;
-                bottom: 156px;
-            
-                h1{
-                    font-size: 1.8rem;
-                }
-            }
-        }
-    }
-}

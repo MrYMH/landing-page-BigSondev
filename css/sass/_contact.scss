@@ -8,6 +8,7 @@
     background-color:$light-gary-one;
     position: relative;
     top: -3.75rem;
+    
     .container{
         display: flex;
         justify-content: space-between;
@@ -15,6 +16,9 @@
         
         .social{
             margin-top: 4.9rem;
+            margin-right: 2.7rem;
+            position: relative;
+            left: 25px;
             background-color: #eee;
             width: 25rem;
             height: 10.625rem;
@@ -23,12 +27,11 @@
             align-items: center;
             flex-direction: column;
             border-radius: 3.125rem;
-            // box-shadow: -10px 10px 6px 1px rgba(124, 124, 124, 0.845);
-            font-size: 1.2rem;
+            font-size: 1rem;
             box-shadow: 0px 1rem 1.25rem #00000029;
             i{
                 color: $green-two;
-                font-size: 2.8125rem;
+                font-size: 2rem;
             }
         }
     }
@@ -40,7 +43,9 @@
         .container{
             display: block;
             .social{
-                width: 20rem;
+                width: 17rem;
+                left: 23px;
+                margin-top: 2.9rem;
             }
         }
     }
